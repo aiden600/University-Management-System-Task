@@ -47,6 +47,13 @@ class Professor(Person):
         self.salary = 0
 
 
-    def set_professor_details(staff_id, department, salary): 
+    def set_professor_details(self,staff_id, department, salary):
+        self.staff_id = staff_id
+        self.department = department
+        self.salary = salary
+    
+    def give_feedback(student, feedback):
+        
+
 
 
